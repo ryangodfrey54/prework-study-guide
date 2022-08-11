@@ -40,8 +40,30 @@ p {
 .card {
     width: 80%;
     margin: 40px auto;
-    border: 5px solid #A6CDFC;
-    box-shadow: 5px 7px rgb(217, 217, 217);
+    border: 3px solid #A6CDFC;
+    box-shadow: 3px 6px rgb(217, 217, 217);
 }
 
-
+details {
+    user-select: none;
+  }
+  
+  details>summary span.icon {
+    width: 24px;
+    height: 24px;
+    transition: all 0.3s;
+    margin-left: auto;
+  }
+  
+  details[open] summary span.icon {
+    transform: rotate(180deg);
+  }
+  
+  summary {
+    display: flex;
+    cursor: pointer;
+  }
+  
+  summary::-webkit-details-marker {
+    display: none;
+  }
