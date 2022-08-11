@@ -27,6 +27,10 @@ img {
     margin-right: auto;
 }
 
+ul li {
+    list-style-position: outside;
+    margin-left: 1em;
+}
 
 p {
     text-align: center;
@@ -40,7 +44,4 @@ p {
     box-shadow: 5px 7px rgb(217, 217, 217);
 }
 
-ul li {
-    list-style-position: outside;
-    margin-left: 1em;
-}
+
