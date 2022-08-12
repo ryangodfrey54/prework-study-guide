@@ -25,6 +25,7 @@ footer {
 h1,
 h2 {
     text-align: center;
+    margin-left: 0.1em;
 }
 
 img {
@@ -72,4 +73,6 @@ details {
     cursor: pointer;
   }
   
-
+  summary::-webkit-details-marker {
+    display: none;
+  }
