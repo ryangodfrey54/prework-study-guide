@@ -50,7 +50,7 @@ p {
     width: 80%;
     margin: 40px auto;
     border: 3px solid #A6CDFC;
-    box-shadow: 3px 6px rgb(217, 217, 217);
+    box-shadow: 3.5px 5px rgb(217, 217, 217);
 }
 
 details {
