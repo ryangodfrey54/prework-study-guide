@@ -2,7 +2,7 @@
 
 ## Description
 I created this in order to learn the basics of HTML, CSS, Git, and JavaScript
-My intention is that this website will help other learn and study the basics of these languages and tool
+I hope that this website will provide background information on the fundamentals of web development. 
 I learned the fundamentals of web development
 
 
